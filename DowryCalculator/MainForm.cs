@@ -18,9 +18,6 @@ namespace DowryCalculator
         {
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-        }
 
         // Open ProfileForm and hide main form
         private void btnProfile_Click(object sender, EventArgs e)
@@ -50,10 +47,42 @@ namespace DowryCalculator
 
         private void btnShlr_Click(object sender, EventArgs e)
         {
+
         }
 
-        private void backGroundPanel_Paint(object sender, PaintEventArgs e)
+        private void btnDepartment_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCgpa4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDprtmnt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdbYes_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdbtnNo_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -14,5 +14,10 @@ namespace DowryCalculator
         {
 
         }
+
+        private void resultPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
