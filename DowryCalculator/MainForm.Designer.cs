@@ -96,15 +96,16 @@
             // 
             this.cmbMain.FormattingEnabled = true;
             this.cmbMain.Items.AddRange(new object[] {
-            " 1. Probation (<2.50)",
-            " 2. 2.50 - 3.00",
-            " 3. 3.00 - 3.50",
-            " 4.3.50 - 3.99",
-            " 5.Tourist 4.00"});
+            "Probation (<2.50)",
+            "2.50 - 3.00",
+            "3.00-3.50",
+            "3.50-3.99",
+            "Tourist(4.00)"});
             this.cmbMain.Location = new System.Drawing.Point(153, 181);
             this.cmbMain.Name = "cmbMain";
             this.cmbMain.Size = new System.Drawing.Size(121, 21);
             this.cmbMain.TabIndex = 22;
+            this.cmbMain.SelectedIndexChanged += new System.EventHandler(this.cmbMain_SelectedIndexChanged);
             // 
             // txtDprtmnt
             // 
@@ -229,7 +230,6 @@
             this.btnProfile.TabIndex = 7;
             this.btnProfile.Text = "Profile";
             this.btnProfile.UseVisualStyleBackColor = true;
-            this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
             // 
             // DowryWin
             // 
