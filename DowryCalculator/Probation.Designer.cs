@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProbationForm));
             this.PnlProbation = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.lblPoramorso = new System.Windows.Forms.Label();
             this.lblSorry = new System.Windows.Forms.Label();
+            this.lblPoramorso = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.PnlProbation.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,26 +47,6 @@
             this.PnlProbation.Size = new System.Drawing.Size(402, 502);
             this.PnlProbation.TabIndex = 0;
             // 
-            // panel2
-            // 
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.Location = new System.Drawing.Point(691, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(269, 514);
-            this.panel2.TabIndex = 1;
-            // 
-            // lblPoramorso
-            // 
-            this.lblPoramorso.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lblPoramorso.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPoramorso.Location = new System.Drawing.Point(-4, -33);
-            this.lblPoramorso.Name = "lblPoramorso";
-            this.lblPoramorso.Size = new System.Drawing.Size(412, 485);
-            this.lblPoramorso.TabIndex = 0;
-            this.lblPoramorso.Text = resources.GetString("lblPoramorso.Text");
-            this.lblPoramorso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // lblSorry
             // 
             this.lblSorry.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -76,6 +56,26 @@
             this.lblSorry.TabIndex = 2;
             this.lblSorry.Text = "আমরা অত্যন্ত দুঃখিত, আপনি যৌতুক পাওয়ার যোগ্য নন।";
             this.lblSorry.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblPoramorso
+            // 
+            this.lblPoramorso.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lblPoramorso.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPoramorso.Location = new System.Drawing.Point(-4, -33);
+            this.lblPoramorso.Name = "lblPoramorso";
+            this.lblPoramorso.Size = new System.Drawing.Size(379, 485);
+            this.lblPoramorso.TabIndex = 0;
+            this.lblPoramorso.Text = resources.GetString("lblPoramorso.Text");
+            this.lblPoramorso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.Location = new System.Drawing.Point(691, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(269, 514);
+            this.panel2.TabIndex = 1;
             // 
             // ProbationForm
             // 
